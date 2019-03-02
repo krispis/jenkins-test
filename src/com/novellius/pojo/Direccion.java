@@ -10,7 +10,7 @@ public class Direccion {
 	private String cp;
 	
 	@Autowired
-	public void setCalle(@Value("Escosura")String calle) {
+	public void setCalle(@Value("SanBer")String calle) {
 		this.calle = calle;
 	}
 	
